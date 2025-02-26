@@ -23,7 +23,7 @@ public class PlayerSneakState : PlayerBaseState
 
         } else if (player.isSneaking == false){
 
-            player.SwitchState(player.walkState)
+            player.SwitchState(player.walkState);
         }
 
 

@@ -1,0 +1,202 @@
+Syntax error
+	Basic semicolon
+	Basic parentisis
+	
+	
+	
+	
+//This is a comment. You can tell by the  two slashes in the start. Comments do not affect the program in any way. 
+//Developers use comments to explain their code among other things. 
+//Follow the comments to make sure that the code follows what the comments are asking 
+
+using UnityEngine;
+public class HelloWorld : MonoBehaviour
+{   
+    void Start()
+    {
+        print("Hello, World!"); 
+				
+    }
+
+}
+
+
+
+
+
+
+Type error
+
+
+
+//Real solution 
+using UnityEngine;
+
+public class PlayerStats : MonoBehaviour
+{
+    
+    public string playerName = "Hero";
+    public float runningSpeed = 5.5f;
+    public int healthBar = 100;
+    public bool human = true;
+
+}
+
+
+using UnityEngine;
+
+public class PlayerStats : MonoBehaviour
+{
+    
+    public bool playerName = "Hero";
+    public float runningSpeed = 5.5f;
+    public int healthBar = 100;
+    public bool human = true;
+}
+
+using UnityEngine;
+
+public class PlayerStats : MonoBehaviour
+{
+    
+    public string playerName = "Hero";
+    public float runningSpeed = 5.5f;
+    public int healthBar = 100.00;
+    public bool human = true;
+}
+
+
+using UnityEngine;
+
+public class PlayerStats : MonoBehaviour
+{
+    
+    public string playerName = "hero";
+    public float runningSpeed = 5.5f;
+    public int healthBar = 100;
+    public bool human = true;
+}
+public class PlayerStats : MonoBehaviour
+{
+    
+    public string playerName = "hero";
+    public float runningSpeed = 5.5f;
+    public int healthBar = 100;
+    public bool human = "True";
+}
+
+
+
+
+using UnityEngine;
+
+public class PlayerStats : MonoBehaviour
+{
+    
+    public string playerName = "Hero";
+    public int runningSpeed = 5.5f;
+    public int healthBar = 100;
+    public bool human = true;
+}
+
+    public string playerName = Hero;
+    public int runningSpeed = 5.5f;
+    public int healthBar = 100.00;
+    public bool human = "yeah";	
+    public char FirstLetter = 60;
+    public int runningSpeed = "100";
+    public int healthBar = false;
+    public bool human = 14.34;
+
+
+
+Advanced 
+
+
+
+
+Logic error
+// real
+    void Start()
+    { 
+        int number = 10; 
+        number += 5;
+        print("The number is: " + number);
+           if (x > 10)
+        {
+            return "Greater than";
+        }
+
+ }
+
+
+    int LightIntesity()
+    { 
+        int Light = 10; 
+        Light += 5;
+           if (Light < 10)
+        {
+            return Light;
+        }
+ }
+
+
+
+    int ExplosionIntensity()
+    { 
+        int Explode = 10; 
+        Explode += 5;
+           when (Explode > 10)
+        {
+            return Explode;
+        }
+ 
+ }
+    int RockWeight()
+    { 
+        int Rock = 10; 
+        Rock =+ 5;
+           if (Rock > 10)
+        {
+            return Rock;
+        }
+
+ }
+    int RabbitHeight()
+    { 
+        int Rabbit = 10; 
+        Rabbit += 5;
+           if (10 == Rabbit)
+        {
+            return Rabbit;
+        }
+
+ }
+
+
+    float RabbitHeight()
+    { 
+        int Rabbit = 10; 
+        Rabbit += 5;
+           if (10 > Rabbit)
+        {
+            return Rabbit;
+        }
+
+ }
+
+
+    float GameDifficulty()
+    { 
+        bool Game = 10; 
+        Game += 5;
+           if (10 > Game)
+        {
+            return Game;
+        }
+
+ }
+
+
+
+
