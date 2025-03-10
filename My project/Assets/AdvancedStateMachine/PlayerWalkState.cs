@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerWalkState :PlayerBaseState
+public class PlayerWalkState : PlayerBaseState
 {
     public override void EnterState(PlayerStateManager player)
     {

@@ -18,10 +18,10 @@ public class EnemyController : MonoBehaviour
     float followTimer = 0f;  // Timer to keep track of follow state
 
     private State currentState = State.Pace;  // Start by pacing (following waypoints)
-
+    Animator anim;
     void Start()
     {
-
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -41,7 +41,7 @@ public class EnemyController : MonoBehaviour
     void OnPace()
     {
         print("I'm pacing");
-
+        anim.SetBool("Following", false);
         if (routeIndex < 0 || routeIndex >= route.Length)
         {
             routeIndex = 0;  // Reset to the first waypoint if out of bounds

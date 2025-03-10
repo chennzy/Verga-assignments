@@ -5,12 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/SimpleStateMachine/scene.unity
     guid: ddc82ca5785a9a941bac905ca7584f6d
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/PolishDemo/PolishDemo.unity
+    guid: 11a5b3d282e926740a491295dacd6837
+  - enabled: 1
+    path: Assets/PolishDemo/PolishEndGame.unity
+    guid: e35e7ea42bf29ef4b893786e36f0b530
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
