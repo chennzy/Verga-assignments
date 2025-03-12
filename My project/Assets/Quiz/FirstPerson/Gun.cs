@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
-    public GameObject bulletPrefab; // Assign in Inspector
-    public Transform firePoint; // Create an empty GameObject at gun barrel
+    public GameObject bulletPrefab;  // Drag bullet prefab here
+    public Transform firePoint;  // Drag FirePoint object here
     public float bulletForce = 20f;
 
     void Update()

@@ -5,7 +5,7 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - cam: {instanceID: 0}
-  - Bullet: {instanceID: 0}
+  - Bullet: {fileID: 7579314393324246274, guid: e8d335995d3c0ff4ab7473ad7985ca26, type: 3}
   - BulletSpawner: {instanceID: 0}
   - playerControls: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   executionOrder: 0
